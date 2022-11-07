@@ -1,0 +1,3132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SyncEngine Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/objc/Class/SyncEngine" class="dashAnchor"></a>
+    <a title="SyncEngine Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> 3.0.174 Docs</a> (25% documented)</p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        SyncEngine Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Categories.html">Categories</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Categories/NSString%28Base64%29.html">NSString(Base64)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Categories/UIApplication%28KeyboardView%29.html">UIApplication(KeyboardView)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/APAttribute.html">APAttribute</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/APDocument.html">APDocument</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/APElement.html">APElement</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDBUpgradeResult.html">AppDBUpgradeResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppUpgradeInfo.html">AppUpgradeInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ApplicationManager.html">ApplicationManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ApplicationMeta.html">ApplicationMeta</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ApplicationUtils.html">ApplicationUtils</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Attachment.html">Attachment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AttachmentItem.html">AttachmentItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AuthenticationService.html">AuthenticationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusinessEntityMeta.html">BusinessEntityMeta</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BusyIndicatorManager.html">BusyIndicatorManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CONFLICT_BE.html">CONFLICT_BE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CertificateInfo.html">CertificateInfo</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Collation.html">Collation</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConflictBEUtils.html">ConflictBEUtils</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectionHelper.html">ConnectionHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectivityMonitor.html">ConnectivityMonitor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Cursor.html">Cursor</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSActivityView.html">DSActivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSBezelActivityView.html">DSBezelActivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DSKeyboardActivityView.html">DSKeyboardActivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes.html#/c:objc(cs)DSWhiteActivityView">DSWhiteActivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataNotification.html">DataNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataRetreiverService.html">DataRetreiverService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataSender.html">DataSender</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataStructure.html">DataStructure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DataTypes.html">DataTypes</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FieldMeta.html">FieldMeta</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FrameworkHelper.html">FrameworkHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FrameworkManager.html">FrameworkManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FrameworkSettingsManager.html">FrameworkSettingsManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/FrameworkSettingsViewController.html">FrameworkSettingsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HDNotificationView.html">HDNotificationView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HTTPResponse.html">HTTPResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IBXMLHelper.html">IBXMLHelper</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/IndexMeta.html">IndexMeta</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/InfoMessage.html">InfoMessage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Logger.html">Logger</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginOptionsViewController.html">LoginOptionsViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/LoginParameters.html">LoginParameters</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MobileAppSettings.html">MobileAppSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MobileUserSettings.html">MobileUserSettings</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/OutObject.html">OutObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Outbox.html">Outbox</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PathManager.html">PathManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/QueryFunction.html">QueryFunction</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Reachability.html">Reachability</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RestAPIConnectionManager.html">RestAPIConnectionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Row.html">Row</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SentItemObject.html">SentItemObject</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SentItems.html">SentItems</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ServerCertificateValidator.html">ServerCertificateValidator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ServerTrustEvaluator.html">ServerTrustEvaluator</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/StructureMeta.html">StructureMeta</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SyncBEResponse.html">SyncBEResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SyncConstantsStringConversion.html">SyncConstantsStringConversion</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SyncEngine.html">SyncEngine</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SyncRawResponse.html">SyncRawResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SystemCredential.html">SystemCredential</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SystemCredentialManager.html">SystemCredentialManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnviredAccount.html">UnviredAccount</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnviredActivityView.html">UnviredActivityView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnviredAuthenticationService.html">UnviredAuthenticationService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnviredError.html">UnviredError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnviredFrameworkUtils.html">UnviredFrameworkUtils</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnviredRefreshTableHeaderView.html">UnviredRefreshTableHeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UnviredTableView.html">UnviredTableView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UpgradeManager.html">UpgradeManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserSettingsManager.html">UserSettingsManager</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ApplicationMeta.h@APPLICATION_META_TABLE_NAME">APPLICATION_META_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ApplicationMeta.h@APP_CLASS_NAME">APP_CLASS_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ApplicationMeta.h@APP_ID">APP_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ApplicationMeta.h@APP_NAME">APP_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AppUpgradeInfo.h@APP_UPGRADE_INFO_NEW_VERSION">APP_UPGRADE_INFO_NEW_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AppUpgradeInfo.h@APP_UPGRADE_INFO_URL">APP_UPGRADE_INFO_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_ATTACHMENT_STATUS">ATTACHMENT_ITEM_ATTACHMENT_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_AUTO_DOWNLOAD">ATTACHMENT_ITEM_AUTO_DOWNLOAD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_CUSTOM_FIELD_1">ATTACHMENT_ITEM_CUSTOM_FIELD_1</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_CUSTOM_FIELD_2">ATTACHMENT_ITEM_CUSTOM_FIELD_2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_DESCRIPTION">ATTACHMENT_ITEM_DESCRIPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_ERROR_MESSAGE">ATTACHMENT_ITEM_ERROR_MESSAGE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_EXTERNAL_URL">ATTACHMENT_ITEM_EXTERNAL_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_FILE_NAME">ATTACHMENT_ITEM_FILE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_LOCAL_PATH">ATTACHMENT_ITEM_LOCAL_PATH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_MIME_TYPE">ATTACHMENT_ITEM_MIME_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_NO_CACHE">ATTACHMENT_ITEM_NO_CACHE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_SERVER_TIMESTAMP">ATTACHMENT_ITEM_SERVER_TIMESTAMP</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_TAG1">ATTACHMENT_ITEM_TAG1</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_TAG2">ATTACHMENT_ITEM_TAG2</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_TAG3">ATTACHMENT_ITEM_TAG3</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_TAG4">ATTACHMENT_ITEM_TAG4</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_TAG5">ATTACHMENT_ITEM_TAG5</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_UID">ATTACHMENT_ITEM_UID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_URL">ATTACHMENT_ITEM_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_ITEM_URL_REQUIRES_AUTH">ATTACHMENT_ITEM_URL_REQUIRES_AUTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_STATUS_STRING_DEFAULT">ATTACHMENT_STATUS_STRING_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_STATUS_STRING_DOWNLOADED">ATTACHMENT_STATUS_STRING_DOWNLOADED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_STATUS_STRING_ERROR_IN_DOWNLOAD">ATTACHMENT_STATUS_STRING_ERROR_IN_DOWNLOAD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_STATUS_STRING_ERROR_IN_UPLOAD">ATTACHMENT_STATUS_STRING_ERROR_IN_UPLOAD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_STATUS_STRING_MARKED_FOR_DELETE">ATTACHMENT_STATUS_STRING_MARKED_FOR_DELETE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_STATUS_STRING_QUEUED_FOR_DOWNLOAD">ATTACHMENT_STATUS_STRING_QUEUED_FOR_DOWNLOAD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_STATUS_STRING_SAVED_FOR_UPLOAD">ATTACHMENT_STATUS_STRING_SAVED_FOR_UPLOAD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@ATTACHMENT_STATUS_STRING_UPLOADED">ATTACHMENT_STATUS_STRING_UPLOADED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:DataTypes.h@BLOB">BLOB</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_ADD_FUNCTION">BUSINESS_ENTITY_META_ADD_FUNCTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_APP_NAME">BUSINESS_ENTITY_META_APP_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_ATTACHMENTS">BUSINESS_ENTITY_META_ATTACHMENTS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_BE_NAME">BUSINESS_ENTITY_META_BE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_CONFLICT_RULE">BUSINESS_ENTITY_META_CONFLICT_RULE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_DELETE_FUNCTION">BUSINESS_ENTITY_META_DELETE_FUNCTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_DESCRIPTION">BUSINESS_ENTITY_META_DESCRIPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_MODIFY_FUNCTION">BUSINESS_ENTITY_META_MODIFY_FUNCTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_NOTIFICATION">BUSINESS_ENTITY_META_NOTIFICATION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_SAVE">BUSINESS_ENTITY_META_SAVE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:BusinessEntityMeta.h@BUSINESS_ENTITY_META_TABLE_NAME">BUSINESS_ENTITY_META_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@CLASS_NAME">CLASS_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@COMPANY_ALIAS">COMPANY_ALIAS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@COMPANY_NAMESPACE">COMPANY_NAMESPACE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:CONFLICT_BE.h@CONFLICT_BE_FIELD_BE_HEADER_LID">CONFLICT_BE_FIELD_BE_HEADER_LID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:CONFLICT_BE.h@CONFLICT_BE_FIELD_BE_NAME">CONFLICT_BE_FIELD_BE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:CONFLICT_BE.h@CONFLICT_BE_FIELD_DATA">CONFLICT_BE_FIELD_DATA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:CONFLICT_BE.h@CONFLICT_BE_TABLE_NAME">CONFLICT_BE_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@CURRENT_FRAMEWORK_VERSION">CURRENT_FRAMEWORK_VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@CUSTOM_DEVICE_ID">CUSTOM_DEVICE_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:LoginParameters.h@DEFAULT_URL">DEFAULT_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UpgradeManager.h@DEFAULT_VERSION_NUMBER">DEFAULT_VERSION_NUMBER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@DEMO_MODE">DEMO_MODE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ApplicationMeta.h@DESCRIPTION">DESCRIPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@DEVICE_TYPE">DEVICE_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@DOMAIN_NAME">DOMAIN_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UnviredFrameworkUtils.h@DONT_SHOW_PORT_">DONT_SHOW_PORT_</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UnviredAuthenticationService.h@FAILURE">FAILURE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@FETCH_INTERVAL">FETCH_INTERVAL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_CONFLICT">FIELD_CONFLICT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_FID">FIELD_FID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_LID">FIELD_LID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_APP_NAME">FIELD_META_APP_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_BE_NAME">FIELD_META_BE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_DESCRIPTION">FIELD_META_DESCRIPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_FIELD_NAME">FIELD_META_FIELD_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_IS_GID">FIELD_META_IS_GID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_LENGTH">FIELD_META_LENGTH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_MANDATORY">FIELD_META_MANDATORY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_SQL_TYPE">FIELD_META_SQL_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_STRUCT_NAME">FIELD_META_STRUCT_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FieldMeta.h@FIELD_META_TABLE_NAME">FIELD_META_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_OBJECT_STATUS">FIELD_OBJECT_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_SYNC_STATUS">FIELD_SYNC_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_TIMESTAMP">FIELD_TIMESTAMP</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_TYPE_CONFLICT">FIELD_TYPE_CONFLICT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_TYPE_FID">FIELD_TYPE_FID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_TYPE_LID">FIELD_TYPE_LID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_TYPE_OBJECT_STATUS">FIELD_TYPE_OBJECT_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_TYPE_SYNC_STATUS">FIELD_TYPE_SYNC_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:IDataStructure.h@FIELD_TYPE_TIMESTAMP">FIELD_TYPE_TIMESTAMP</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@FW_ATTACHMENT_AUTO_DOWNLOAD_PRIORITY">FW_ATTACHMENT_AUTO_DOWNLOAD_PRIORITY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AttachmentItem.h@FW_ATTACHMENT_FORCE_DOWNLOAD_PRIORITY">FW_ATTACHMENT_FORCE_DOWNLOAD_PRIORITY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_CATEGORY_FAILURE">INFO_MESSAGE_CATEGORY_FAILURE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_CATEGORY_INFO">INFO_MESSAGE_CATEGORY_INFO</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_CATEGORY_SUCCESS">INFO_MESSAGE_CATEGORY_SUCCESS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_CATEGORY_WARNING">INFO_MESSAGE_CATEGORY_WARNING</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_FIELD_BE_LID">INFO_MESSAGE_FIELD_BE_LID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_FIELD_BE_NAME">INFO_MESSAGE_FIELD_BE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_FIELD_CATEGORY">INFO_MESSAGE_FIELD_CATEGORY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_FIELD_MESSAGE">INFO_MESSAGE_FIELD_MESSAGE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_FIELD_MESSAGE_BLOB">INFO_MESSAGE_FIELD_MESSAGE_BLOB</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_FIELD_SUB_TYPE">INFO_MESSAGE_FIELD_SUB_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_FIELD_TYPE">INFO_MESSAGE_FIELD_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_TABLE_NAME">INFO_MESSAGE_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_TAG_BE_LID">INFO_MESSAGE_TAG_BE_LID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_TAG_BE_NAME">INFO_MESSAGE_TAG_BE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_TAG_CATEGORY">INFO_MESSAGE_TAG_CATEGORY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_TAG_MESSAGE">INFO_MESSAGE_TAG_MESSAGE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_TAG_MESSAGE_DETAILS">INFO_MESSAGE_TAG_MESSAGE_DETAILS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_TAG_SUB_TYPE">INFO_MESSAGE_TAG_SUB_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:InfoMessage.h@INFO_MESSAGE_TAG_TYPE">INFO_MESSAGE_TAG_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ApplicationMeta.h@INSTALLATION_DATE">INSTALLATION_DATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:DataTypes.h@INTEGER">INTEGER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@IS_HEADER_VALUE_FALSE">IS_HEADER_VALUE_FALSE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@IS_HEADER_VALUE_TRUE">IS_HEADER_VALUE_TRUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:AuthenticationService.h@LAST_LOGGED_OUT_ACCOUNT">LAST_LOGGED_OUT_ACCOUNT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@LOGINTYPE">LOGINTYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileAppSettings.h@MOBILE_APP_SETTINGS_TABLE_NAME">MOBILE_APP_SETTINGS_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileUserSettings.h@MOBILE_SETTINGS_FIELD_CURRENT">MOBILE_SETTINGS_FIELD_CURRENT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileUserSettings.h@MOBILE_SETTINGS_FIELD_DEFAULT">MOBILE_SETTINGS_FIELD_DEFAULT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileUserSettings.h@MOBILE_SETTINGS_FIELD_DESCRIPTION">MOBILE_SETTINGS_FIELD_DESCRIPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileUserSettings.h@MOBILE_SETTINGS_FIELD_KEYNAME">MOBILE_SETTINGS_FIELD_KEYNAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileUserSettings.h@MOBILE_SETTINGS_FIELD_MANDATORY">MOBILE_SETTINGS_FIELD_MANDATORY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileAppSettings.h@MOBILE_SETTINGS_FIELD_NAME">MOBILE_SETTINGS_FIELD_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileUserSettings.h@MOBILE_SETTINGS_FIELD_SECURE">MOBILE_SETTINGS_FIELD_SECURE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileAppSettings.h@MOBILE_SETTINGS_FIELD_VALUE">MOBILE_SETTINGS_FIELD_VALUE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileAppSettings.h@MOBILE_SETTINGS_SECURE_FIELD">MOBILE_SETTINGS_SECURE_FIELD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:MobileUserSettings.h@MOBILE_SETTINGS_TABLE_NAME">MOBILE_SETTINGS_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:NotificationListener.h@NOTIFICATION_DB_OPERATIONS_START">NOTIFICATION_DB_OPERATIONS_START</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:NotificationListener.h@NOTIFICATION_NETWORK_CONNECTION_INTERRUPTED">NOTIFICATION_NETWORK_CONNECTION_INTERRUPTED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:NotificationListener.h@NOTIFICATION_NETWORK_CONNECTION_RESTARTED">NOTIFICATION_NETWORK_CONNECTION_RESTARTED</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@NOTIFICATION_TIMEOUT">NOTIFICATION_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:DataTypes.h@Null">Null</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_BE_HEADER_LID">OUT_OBJECT_BE_HEADER_LID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_BE_NAME">OUT_OBJECT_BE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_BYPASS_ATTACHEMNT">OUT_OBJECT_BYPASS_ATTACHEMNT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_COMPANY_NAMESPACE">OUT_OBJECT_COMPANY_NAMESPACE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_CONVERSATION_ID">OUT_OBJECT_CONVERSATION_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_FUNCTION_NAME">OUT_OBJECT_FUNCTION_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_LID">OUT_OBJECT_LID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_MESSAGE_SUB_TYPE">OUT_OBJECT_MESSAGE_SUB_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_MESSAGE_TYPE">OUT_OBJECT_MESSAGE_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_MESSAGE_XML">OUT_OBJECT_MESSAGE_XML</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_OUT_OBJECT_STATUS">OUT_OBJECT_OUT_OBJECT_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_REQUEST_TYPE">OUT_OBJECT_REQUEST_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_SYNC_TYPE">OUT_OBJECT_SYNC_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:OutObject.h@OUT_OBJECT_TABLE_NAME">OUT_OBJECT_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SystemCredential.h@PASSWORD">PASSWORD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SystemCredential.h@PORT_DESC">PORT_DESC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SystemCredential.h@PORT_NAME">PORT_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SystemCredential.h@PORT_TYPE">PORT_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:QueryFunction.h@QUERY_FUNCTION_FUNCTION_NAME">QUERY_FUNCTION_FUNCTION_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:QueryFunction.h@QUERY_FUNCTION_TABLE_NAME">QUERY_FUNCTION_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:DataTypes.h@REAL">REAL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@REQUEST_TIMEOUT">REQUEST_TIMEOUT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@SAML2_JWT_TOKEN">SAML2_JWT_TOKEN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SentItemObject.h@SENT_ITEM_OBJECT_APP_NAME">SENT_ITEM_OBJECT_APP_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SentItemObject.h@SENT_ITEM_OBJECT_BE_HEADER_LID">SENT_ITEM_OBJECT_BE_HEADER_LID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SentItemObject.h@SENT_ITEM_OBJECT_BE_NAME">SENT_ITEM_OBJECT_BE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SentItemObject.h@SENT_ITEM_OBJECT_CONVERSATION_ID">SENT_ITEM_OBJECT_CONVERSATION_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SentItemObject.h@SENT_ITEM_OBJECT_ENTRY_DATE">SENT_ITEM_OBJECT_ENTRY_DATE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SentItemObject.h@SENT_ITEM_OBJECT_TABLE_NAME">SENT_ITEM_OBJECT_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@SERVER_CERTIFICATE_HASH">SERVER_CERTIFICATE_HASH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@SERVER_PASSWORD">SERVER_PASSWORD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@SERVER_URL">SERVER_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@SERVER_USER_ID">SERVER_USER_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@STRUCT_APP_NAME">STRUCT_APP_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@STRUCT_BE_NAME">STRUCT_BE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@STRUCT_DESCRIPTION">STRUCT_DESCRIPTION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@STRUCT_IS_HEADER">STRUCT_IS_HEADER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@STRUCT_META_TABLE_NAME">STRUCT_META_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:StructureMeta.h@STRUCT_NAME">STRUCT_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UnviredAuthenticationService.h@SUCCESS">SUCCESS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SystemCredential.h@SYSTEM_CREDENTIAL_TABLE_NAME">SYSTEM_CREDENTIAL_TABLE_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SystemCredential.h@SYSTEM_DESC">SYSTEM_DESC</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:DataTypes.h@TEXT">TEXT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UnviredError.h@UNVIRED_DOMAIN_DATABASE">UNVIRED_DOMAIN_DATABASE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UnviredError.h@UNVIRED_DOMAIN_INTERNAL">UNVIRED_DOMAIN_INTERNAL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UnviredError.h@UNVIRED_DOMAIN_NETWORK">UNVIRED_DOMAIN_NETWORK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UnviredError.h@UNVIRED_DOMAIN_USAGE">UNVIRED_DOMAIN_USAGE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FrameworkVersion.h@UNVIRED_FRAMEWORK_BUILD_NUMBER">UNVIRED_FRAMEWORK_BUILD_NUMBER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FrameworkVersion.h@UNVIRED_FRAMEWORK_REVISION_NUMBER">UNVIRED_FRAMEWORK_REVISION_NUMBER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FrameworkVersion.h@UNVIRED_FRAMEWORK_REVISION_URL">UNVIRED_FRAMEWORK_REVISION_URL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:FrameworkVersion.h@UNVIRED_FRAMEWORK_VERSION_NUMBER">UNVIRED_FRAMEWORK_VERSION_NUMBER</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@UNVIRED_ID">UNVIRED_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SystemCredential.h@UNVIRED_ID_CORDOVA">UNVIRED_ID_CORDOVA</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@UNVIRED_PASSWORD">UNVIRED_PASSWORD</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@UNVIRED_PIN">UNVIRED_PIN</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UserSettingsManager.h@UNVIRED_USER_ID">UNVIRED_USER_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:SystemCredential.h@USER_ID">USER_ID</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:ApplicationMeta.h@VERSION">VERSION</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:NotificationListener.h@kAttachmentItem">kAttachmentItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:Collation.h@kCollationSequenceBinary">kCollationSequenceBinary</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:Collation.h@kCollationSequenceNoCase">kCollationSequenceNoCase</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:Collation.h@kCollationSequenceRTRIM">kCollationSequenceRTRIM</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:UnviredAuthenticationService.h@kDefaultHTTPRequestTimeout">kDefaultHTTPRequestTimeout</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:NotificationListener.h@kError">kError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:Collation.h@kOrderAscending">kOrderAscending</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Constants.html#/c:Collation.h@kOrderDescending">kOrderDescending</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/ATTACHMENT_ITEM_STATUS.html">ATTACHMENT_ITEM_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BE_ACTION_TYPE.html">BE_ACTION_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/CONFLICT_RULE.html">CONFLICT_RULE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/DATA_TYPE.html">DATA_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/GetMessageFetchInterval.html">GetMessageFetchInterval</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LEVEL.html">LEVEL</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LoginMode.html">LoginMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/LoginType.html">LoginType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OBJECT_STATUS.html">OBJECT_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OUT_OBJECT_STATUS.html">OUT_OBJECT_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/OutboxLockResult.html">OutboxLockResult</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/PathType.html">PathType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RESPONSE_STATUS.html">RESPONSE_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SYNC_MODE.html">SYNC_MODE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/SYNC_STATUS.html">SYNC_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UnviredDataFormat.html">UnviredDataFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UnviredDataImportMode.html">UnviredDataImportMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UnviredFrameworkFields.html">UnviredFrameworkFields</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UnviredInputFields.html">UnviredInputFields</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/UnviredTableViewCellType.html">UnviredTableViewCellType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/kCountType.html">kCountType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/kURLConstants.html">kURLConstants</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/ApplicationStatusDelegate.html">ApplicationStatusDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/CustomDataHandler.html">CustomDataHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DataRetreiverMessageDelegate.html">DataRetreiverMessageDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DataSenderDelegate.html">DataSenderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/DemoModeListener.html">DemoModeListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IAttachment.html">IAttachment</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IConflictHandler.html">IConflictHandler</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IDataManager.html">IDataManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/IDataStructure.html">IDataStructure</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ISyncResponse.html">ISyncResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/LoginActivityListener.html">LoginActivityListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/MoreOptionsDelegate.html">MoreOptionsDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/NotificationListener.html">NotificationListener</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/OutboxOutobjectDelegate.html">OutboxOutobjectDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PasswordChangeDelegate.html">PasswordChangeDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/PasswordPromptDelegate.html">PasswordPromptDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/RestAPIConnectionDelegate.html">RestAPIConnectionDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ServerTrustDelegate.html">ServerTrustDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/ServerValidatorHelperDelegate.html">ServerValidatorHelperDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/SettingsDelegate.html">SettingsDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UnviredAppLockDelegate.html">UnviredAppLockDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UnviredRefreshTableHeaderDelegate.html">UnviredRefreshTableHeaderDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UnviredTableViewDataSource.html">UnviredTableViewDataSource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/UnviredTableViewDelegate.html">UnviredTableViewDelegate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Type%20Definitions.html">Type Definitions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/CURRENT_APPLICATION_STATUS.html">CURRENT_APPLICATION_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/LISTENER_TYPE.html">LISTENER_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/MessageFormat.html">MessageFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/NOTIF_LISTENER_TYPE.html">NOTIF_LISTENER_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/NetworkStatus.html">NetworkStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/RESULT_TYPE.html">RESULT_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/SettingsMode.html">SettingsMode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/UnviredErrorCode.html">UnviredErrorCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/UnviredPullRefreshState.html">UnviredPullRefreshState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Type%20Definitions/UnviredResult.html">UnviredResult</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs.html#/c:@S@sockaddr_in">sockaddr_in</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>SyncEngine</h1>
+              <div class="declaration">
+                <div class="language">
+                  <p class="aside-title">Objective-C</p>
+                  <pre class="highlight objective_c"><code><span class="k">@interface</span> <span class="nc">SyncEngine</span> <span class="p">:</span> <span class="nc">NSObject</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/RestAPIConnectionDelegate.html">RestAPIConnectionDelegate</a></span><span class="o">&gt;</span> <span class="p">{</span>
+  <span class="n"><a href="../Classes/ApplicationManager.html">ApplicationManager</a></span> <span class="o">*</span><span class="n">applicationManager</span><span class="p">;</span>
+  <span class="n"><a href="../Classes/DataRetreiverService.html">DataRetreiverService</a></span> <span class="o">*</span><span class="n">dataRetreiverService</span><span class="p">;</span>
+  <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/CustomDataHandler.html">CustomDataHandler</a></span><span class="o">&gt;</span> <span class="n">customDataHandler</span><span class="p">;</span>
+  <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/NotificationListener.html">NotificationListener</a></span><span class="o">&gt;</span> <span class="n">notificationListener</span><span class="p">;</span>
+  <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/DemoModeListener.html">DemoModeListener</a></span><span class="o">&gt;</span> <span class="n">demoModeListener</span><span class="p">;</span>
+  <span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/IConflictHandler.html">IConflictHandler</a></span><span class="o">&gt;</span> <span class="n">conflictHandler</span><span class="p">;</span>
+  <span class="n">BOOL</span> <span class="n">isApplicationInDemoMode</span><span class="p">;</span>
+<span class="p">}</span></code></pre>
+
+                </div>
+                <div class="language">
+                  <p class="aside-title">Swift</p>
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">SyncEngine</span> <span class="p">:</span> <span class="kt">NSObject</span><span class="p">,</span> <span class="kt"><a href="../Protocols/RestAPIConnectionDelegate.html">RestAPIConnectionDelegate</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>SyncEngine is responsible for exchanging data between the mobile application on the device and the server. SyncEngine can be used for
+ the following:
+ <ul>
+  <li> Exchange data both synchronously and asynchronously.</li>
+  <li> Register for push notifications.</li>
+  <li> Register a custom data handler to interrupt the incoming data from the server and
+ process it in the application layer. This is required to override standard synchronization behaviour.</li>
+ </ul></p>
+
+<p><h3> Data Exchange / Communication </h3>
+ Exchange of data between the mobile application on the device and the server can be done both synchronously and asynchronously. Communication
+ Synchronous and asynchronous communication behave as follows:
+ <ul>
+  <li> <h4>Synchronous:</h4> Exchange of data between the mobile application on the device and the server is done in one request-response cycle.
+ Synchronous communication requires an active connection between the mobile application on the device and the server (and in turn to the enterprise
+ backend system, if required). Synchronous communication is a blocking call. The response to the request is either auto saved or
+ provided to the caller for further processing and storing data to the database, if required.</li>
+  <li> <h4>Asynchronous:</h4> Exchange of data between the mobile application on the device and the server is done in two request-response cycles.
+ Data from the mobile application on the device is queued to be the sent to the server. When the connectivity to the server is available the data
+ is submitted to the server. Server responds with an acknowledgment. Server submits the data to the backend system. Once the
+ response is available from the backend server the response is pushed / sent to the mobile application on the device. Once the data is sent to the
+ mobile application on the device the data is stored in the database. Asynchronous communication allows users to use the application in a non-blocking
+ manner without bothering about connectivity. Also the server can submit the data from the mobile application on the device to the backend server
+ in a delayed manner to accommodate backend server load.</li></p>
+
+              <div class="slightly-smaller">
+                <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L57-L364">Show on GitLab</a>
+              </div>
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine@applicationManager"></a>
+                    <a name="//apple_ref/objc/Ivar/applicationManager" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine@applicationManager">applicationManager</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n"><a href="../Classes/ApplicationManager.html">ApplicationManager</a></span> <span class="o">*</span><span class="n">applicationManager</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L58">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine@dataRetreiverService"></a>
+                    <a name="//apple_ref/objc/Ivar/dataRetreiverService" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine@dataRetreiverService">dataRetreiverService</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n"><a href="../Classes/DataRetreiverService.html">DataRetreiverService</a></span> <span class="o">*</span><span class="n">dataRetreiverService</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L59">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine@customDataHandler"></a>
+                    <a name="//apple_ref/objc/Ivar/customDataHandler" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)SyncEngine@customDataHandler">customDataHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">__weak</span> <span class="n">id</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/CustomDataHandler.html">CustomDataHandler</a></span><span class="o">&gt;</span> <span class="n">customDataHandler</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L60">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine@notificationListener"></a>
+                    <a name="//apple_ref/objc/Ivar/notificationListener" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)SyncEngine@notificationListener">notificationListener</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">__weak</span> <span class="n">id</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/NotificationListener.html">NotificationListener</a></span><span class="o">&gt;</span> <span class="n">notificationListener</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L61">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine@demoModeListener"></a>
+                    <a name="//apple_ref/objc/Ivar/demoModeListener" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)SyncEngine@demoModeListener">demoModeListener</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">__weak</span> <span class="n">id</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/DemoModeListener.html">DemoModeListener</a></span><span class="o">&gt;</span> <span class="n">demoModeListener</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L62">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine@conflictHandler"></a>
+                    <a name="//apple_ref/objc/Ivar/conflictHandler" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)SyncEngine@conflictHandler">conflictHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-unavailable">
+                        <p class="aside-title">Unavailable</p>
+                        
+                      </div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">__weak</span> <span class="n">id</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/IConflictHandler.html">IConflictHandler</a></span><span class="o">&gt;</span> <span class="n">conflictHandler</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L63">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine@isApplicationInDemoMode"></a>
+                    <a name="//apple_ref/objc/Ivar/isApplicationInDemoMode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine@isApplicationInDemoMode">isApplicationInDemoMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="n">BOOL</span> <span class="n">isApplicationInDemoMode</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L64">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(cm)sharedInstance"></a>
+                    <a name="//apple_ref/objc/Method/+sharedInstance" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(cm)sharedInstance">+sharedInstance</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a singleton instance of SyncEngine Class.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">SyncEngine</span> <span class="o">*</span><span class="p">)</span><span class="n">sharedInstance</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sharedInstance</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">SyncEngine</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns an instance of SyncEngine.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L71">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)setup"></a>
+                    <a name="//apple_ref/objc/Method/-setup" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)setup">-setup</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">setup</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">setup</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L73">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)initialize"></a>
+                    <a name="//apple_ref/objc/Method/-initialize" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)initialize">-initialize</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">initialize</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">initialize</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L75">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Cancel%20Current%20Network%20Operation"></a>
+                <a name="//apple_ref/objc/Section/Cancel Current Network Operation" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Cancel%20Current%20Network%20Operation"></a>
+                  <h3 class="section-name"><span>Cancel Current Network Operation</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)cancelCurrentNetworkOperation"></a>
+                    <a name="//apple_ref/objc/Method/-cancelCurrentNetworkOperation" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)cancelCurrentNetworkOperation">-cancelCurrentNetworkOperation</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this method to cancel the currently running network operation. This API is useful if you want to implement &lsquo;Tap to Cancel&rsquo; behaviour on busy indicator for a network operation.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">cancelCurrentNetworkOperation</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">cancelCurrentNetworkOperation</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L82">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Handler%20Registration"></a>
+                <a name="//apple_ref/objc/Section/Handler Registration" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Handler%20Registration"></a>
+                  <h3 class="section-name"><span>Handler Registration</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)registerCustomDataHandler:"></a>
+                    <a name="//apple_ref/objc/Method/-registerCustomDataHandler:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)registerCustomDataHandler:">-registerCustomDataHandler:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Registers a custom data handler for callback. For asynchronous incoming data to the mobile
+ device a custom data handler can be used to interrupt and handle data in the application layer.
+ The synchronization layer calls back the registered custom data handler to provide the incoming
+ data fromm the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerCustomDataHandler</span><span class="p">:(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/CustomDataHandler.html">CustomDataHandler</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">customDataHandler</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">customDataHandler</span><span class="p">:</span> <span class="kt"><a href="../Protocols/CustomDataHandler.html">CustomDataHandler</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>customDataHandler</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object which implements CustomDataHandler</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L94">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)registerNotificationListener:"></a>
+                    <a name="//apple_ref/objc/Method/-registerNotificationListener:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)registerNotificationListener:">-registerNotificationListener:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Registers a notification listener. Notification listener informs the application via call back about important
+ events like the arrival of new data, push notifications, errors, exceptions, etc.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerNotificationListener</span><span class="p">:</span>
+    <span class="p">(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/NotificationListener.html">NotificationListener</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">notificationListener</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">notificationListener</span><span class="p">:</span> <span class="kt"><a href="../Protocols/NotificationListener.html">NotificationListener</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>notificationListener</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object which implements NotificationListener</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L102">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)registerDemoModeListener:"></a>
+                    <a name="//apple_ref/objc/Method/-registerDemoModeListener:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)registerDemoModeListener:">-registerDemoModeListener:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Registers a demo mode listener.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerDemoModeListener</span><span class="p">:(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/DemoModeListener.html">DemoModeListener</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">demoModeListener</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">register</span><span class="p">(</span><span class="n">_</span> <span class="nv">demoModeListener</span><span class="p">:</span> <span class="kt"><a href="../Protocols/DemoModeListener.html">DemoModeListener</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>demoModeListener</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An object which implements DemoModeListener</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L108">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)registerSyncConflictHandler:"></a>
+                    <a name="//apple_ref/objc/Method/-registerSyncConflictHandler:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)registerSyncConflictHandler:">-registerSyncConflictHandler:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">registerSyncConflictHandler</span><span class="p">:(</span><span class="n">id</span> <span class="o">&lt;</span><span class="n"><a href="../Protocols/IConflictHandler.html">IConflictHandler</a></span><span class="o">&gt;</span> <span class="p">)</span><span class="nv">conflictHandler</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">registerSyncConflictHandler</span><span class="p">(</span><span class="n">_</span> <span class="nv">conflictHandler</span><span class="p">:</span> <span class="kt"><a href="../Protocols/IConflictHandler.html">IConflictHandler</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L110">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Handler%20Get%20Methods"></a>
+                <a name="//apple_ref/objc/Section/Handler Get Methods" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Handler%20Get%20Methods"></a>
+                  <h3 class="section-name"><span>Handler Get Methods</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)getCustomDataHandler"></a>
+                    <a name="//apple_ref/objc/Method/-getCustomDataHandler" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)getCustomDataHandler">-getCustomDataHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the registered custom data handler</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/CustomDataHandler.html">CustomDataHandler</a></span><span class="o">&gt;</span><span class="p">)</span><span class="n">getCustomDataHandler</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getCustomDataHandler</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/CustomDataHandler.html">CustomDataHandler</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns the registered custom data handler, if a custom data handler is registered, NULL otherwise.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L119">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)getNotificationListener"></a>
+                    <a name="//apple_ref/objc/Method/-getNotificationListener" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)getNotificationListener">-getNotificationListener</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the registered registerd notification listener.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/NotificationListener.html">NotificationListener</a></span><span class="o">&gt;</span><span class="p">)</span><span class="n">getNotificationListener</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getNotificationListener</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/NotificationListener.html">NotificationListener</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns the registered notification listener, if a notification listener is registered NULL otherwise</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L126">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)getDemoModeListener"></a>
+                    <a name="//apple_ref/objc/Method/-getDemoModeListener" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)getDemoModeListener">-getDemoModeListener</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the registered demo mode listener</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/DemoModeListener.html">DemoModeListener</a></span><span class="o">&gt;</span><span class="p">)</span><span class="n">getDemoModeListener</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getDemoModeListener</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/DemoModeListener.html">DemoModeListener</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns the registered demo mode listener, if a demo mode listener is registered, NULL otherwise.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L133">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)getConflictHandler"></a>
+                    <a name="//apple_ref/objc/Method/-getConflictHandler" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)getConflictHandler">-getConflictHandler</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Gets the registered demo mode listener</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/IConflictHandler.html">IConflictHandler</a></span><span class="o">&gt;</span><span class="p">)</span><span class="n">getConflictHandler</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getConflictHandler</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/IConflictHandler.html">IConflictHandler</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns the registered conflict handler, if a conflict is registered, NULL otherwise.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L140">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)authenticateSystemCredential:"></a>
+                    <a name="//apple_ref/objc/Method/-authenticateSystemCredential:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)authenticateSystemCredential:">-authenticateSystemCredential:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Authenticates the System Credential with the server.</p>
+<div class="aside aside-see">
+    <p class="aside-title">See</p>
+    InfoMessage
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Classes/InfoMessage.html">InfoMessage</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">authenticateSystemCredential</span><span class="p">:</span>
+    <span class="p">(</span><span class="n"><a href="../Classes/SystemCredential.html">SystemCredential</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">systemCredential</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">authenticateSystemCredential</span><span class="p">(</span><span class="n">_</span> <span class="nv">systemCredential</span><span class="p">:</span> <span class="kt"><a href="../Classes/SystemCredential.html">SystemCredential</a></span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/InfoMessage.html">InfoMessage</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An InfoMessage which explains the results of this process</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L147">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)authenticateBackendCredential:"></a>
+                    <a name="//apple_ref/objc/Method/-authenticateBackendCredential:" class="dashAnchor"></a>
+                    <a class="token discouraged" href="#/c:objc(cs)SyncEngine(im)authenticateBackendCredential:">-authenticateBackendCredential:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="aside aside-deprecated">
+                        <p class="aside-title">Deprecated</p>
+                        <p>Use -authenticateSystemCredential: instead</p>
+
+                      </div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">authenticateBackendCredential</span><span class="p">:(</span><span class="n"><a href="../Classes/SystemCredential.html">SystemCredential</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">backendCredential</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">authenticateBackendCredential</span><span class="p">(</span><span class="n">_</span> <span class="nv">backendCredential</span><span class="p">:</span> <span class="kt"><a href="../Classes/SystemCredential.html">SystemCredential</a></span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L151">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)receiveData"></a>
+                    <a name="//apple_ref/objc/Method/-receiveData" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)receiveData">-receiveData</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">receiveData</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">receiveData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L153">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/S%20Y%20N%20C"></a>
+                <a name="//apple_ref/objc/Section/S Y N C" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/S%20Y%20N%20C"></a>
+                  <h3 class="section-name"><span>S Y N C</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)submitInForegroundWithRequestType:dataStructure:customData:processAgentFunctionName:autosave:error:"></a>
+                    <a name="//apple_ref/objc/Method/-submitInForegroundWithRequestType:dataStructure:customData:processAgentFunctionName:autosave:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)submitInForegroundWithRequestType:dataStructure:customData:processAgentFunctionName:autosave:error:">-submitInForegroundWithRequestType:<wbr>dataStructure:<wbr>customData:<wbr>processAgentFunctionName:<wbr>autosave:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Exchange data with the server in synchronous mode. Synchronous
+ communication requires an active connection between the mobile
+ application on the device and the server (and in turn to the enterprise
+ backend system, if required). Synchronous communication is a blocking
+ call till is response is obtained.</p>
+
+<p>Use this method for 0:n BE exchange with the server i.e. for search /
+ query scenarios. Input for the server process agent is optional. Process
+ agents on the server can send 0 to n BEs.</p>
+
+<p>If autoSave is true the data is auto saved in the database.</p>
+
+<p>The response of this method is ISyncResponse. The response can
+ either be SyncBEResponse or SyncRawResponse.</p>
+
+<p>SyncBEResponse is provided as the response when the output data
+ format is IBXML / standard data format. The data BEs in
+ SyncBEResponse is saved automatically if autoSave flag is
+ enabled. Otherwise the data BEs are provided to the caller for action.</p>
+
+<p>SyncRawResponse is provided as the response when the output data
+ format is custom.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/ISyncResponse.html">ISyncResponse</a></span><span class="o">&gt;</span><span class="p">)</span>
+    <span class="nf">submitInForegroundWithRequestType</span><span class="p">:(</span><span class="n"><a href="../Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a></span><span class="p">)</span><span class="nv">rqstType</span>
+                        <span class="nf">dataStructure</span><span class="p">:(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/IDataStructure.html">IDataStructure</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">dataStructure</span>
+                           <span class="nf">customData</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">customData</span>
+             <span class="nf">processAgentFunctionName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">functionName</span>
+                             <span class="nf">autosave</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">autosave</span>
+                                <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">submitInForeground</span><span class="p">(</span><span class="n">withRequest</span> <span class="nv">rqstType</span><span class="p">:</span> <span class="kt"><a href="../Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a></span><span class="p">,</span> <span class="nv">dataStructure</span><span class="p">:</span> <span class="kt"><a href="../Protocols/IDataStructure.html">IDataStructure</a></span><span class="o">!</span><span class="p">,</span> <span class="nv">customData</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">processAgentFunctionName</span> <span class="nv">functionName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">autosave</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Protocols/ISyncResponse.html">ISyncResponse</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>rqstType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p><code><a href="../Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a></code>(RQST/PULL/PUSH/QUERY) to be sent to the server.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>customData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>customData Custom data that has to be sent to the server. Data
+        can be in any format (as decided during the data modeling).</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dataStructure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Data structure to be sent to the server.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>functionName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the process agent that is required to be called in the
+        server.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>autoSave</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Flag to indicate if auto save is required.Pass true if auto
+        save is required and flase otherwise.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>On input, a pointer to an error object. If an error occurs, this pointer is set to an actual error object containing the error information. You may specify nil for this parameter if you do not want the error information.
+Raises a NSNotification with name &ldquo;DB_OPERATIONS_STARTED&rdquo; the moment database operation starts after receiving valid response from server. This Notification is especially usually If you are displaying your custom busy indicator for the duration of Sync Operation with autosave (In which case UnviredSDK takes care of updating values in database).</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Returns the server response encapsulated in the
+     ISyncResponse object. The response can either be
+     SyncBEResponse or SyncRawResponse.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L201-L206">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/A%20S%20Y%20N%20C"></a>
+                <a name="//apple_ref/objc/Section/A S Y N C" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/A%20S%20Y%20N%20C"></a>
+                  <h3 class="section-name"><span>A S Y N C</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)sendToServerInBackground:error:"></a>
+                    <a name="//apple_ref/objc/Method/-sendToServerInBackground:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)sendToServerInBackground:error:">-sendToServerInBackground:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendToServerInBackground</span><span class="p">:(</span><span class="n"><a href="../Classes/OutObject.html">OutObject</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">outObject</span> <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendToServer</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">outObject</span><span class="p">:</span> <span class="kt"><a href="../Classes/OutObject.html">OutObject</a></span><span class="o">!</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L210">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)submitInBackgroundWithRequestType:dataStructure:customData:processAgentFunctionName:bypassAttachment:error:"></a>
+                    <a name="//apple_ref/objc/Method/-submitInBackgroundWithRequestType:dataStructure:customData:processAgentFunctionName:bypassAttachment:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)submitInBackgroundWithRequestType:dataStructure:customData:processAgentFunctionName:bypassAttachment:error:">-submitInBackgroundWithRequestType:<wbr>dataStructure:<wbr>customData:<wbr>processAgentFunctionName:<wbr>bypassAttachment:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Exchange data with the server in asynchronous mode. Add the data to the
+ queue to be sent to the server. Exchange of data between the mobile
+ application on the device and the server is done in two request-response
+ cycles. Data from the mobile application on the device is queued to be
+ the sent to the server. When the connectivity to the server is available
+ the data is submitted to the server. Server responds with an
+ acknowledgment. Server submits the data to the backend system. Once the
+ response is available from the backend server the response is pushed /
+ sent to the mobile application on the device. Once the data is sent to
+ the mobile application on the device the data is stored in the database.
+ Asynchronous communication allows users to use the application in a
+ non-blocking manner without bothering about connectivity. Also the server
+ can submit the data from the mobile application on the device to the
+ backend server in a delayed manner to accommodate backend server load.</p>
+
+<p>Use this method for 1:1 BE exchange with the server i.e. for create and
+ update scenarios. Send one BE and get back one BE. Once the data is
+ response is got back from the server the data is auto saved and the
+ application is notified using the NotificationListener
+ implementation registered by the application.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">submitInBackgroundWithRequestType</span><span class="p">:(</span><span class="n"><a href="../Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a></span><span class="p">)</span><span class="nv">rqstType</span>
+                            <span class="nf">dataStructure</span><span class="p">:(</span><span class="n">id</span><span class="o">&lt;</span><span class="n"><a href="../Protocols/IDataStructure.html">IDataStructure</a></span><span class="o">&gt;</span><span class="p">)</span><span class="nv">dataStructure</span>
+                               <span class="nf">customData</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">customData</span>
+                 <span class="nf">processAgentFunctionName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">functionName</span>
+                         <span class="nf">bypassAttachment</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">bypassAttachment</span>
+                                    <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">submitInBackground</span><span class="p">(</span><span class="n">withRequest</span> <span class="nv">rqstType</span><span class="p">:</span> <span class="kt"><a href="../Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a></span><span class="p">,</span> <span class="nv">dataStructure</span><span class="p">:</span> <span class="kt"><a href="../Protocols/IDataStructure.html">IDataStructure</a></span><span class="o">!</span><span class="p">,</span> <span class="nv">customData</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">processAgentFunctionName</span> <span class="nv">functionName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">bypassAttachment</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>requestType</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>MESSAGE_REQUEST_TYPE(RQST/PULL/PUSH/QUERY) to be sent to the server.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>dataStructure</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Data structure to be sent to the server.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>customData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>customData Custom data that has to be sent to the server. Data
+        can be in any format (as decided during the data modeling).</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>functionName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Name of the process agent that is required to be called in the
+        server.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Business Entity Name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>beLid</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>String LID of the Business Entity</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>byPassAttachment</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Flag to indicate if attachment bypass is required.Pass true if attachment
+        bypass is required and false otherwise.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>On input, a pointer to an error object. If an error occurs, this pointer is set to an actual error object containing the error information. You may specify nil for this parameter if you do not want the error information.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L251-L256">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Internal%20methods%20and%20Utils"></a>
+                <a name="//apple_ref/objc/Section/Internal methods and Utils" class="dashAnchor"></a>
+                <div class="section-name-container">
+                  <a class="section-name-link" href="#/Internal%20methods%20and%20Utils"></a>
+                  <h3 class="section-name"><span>Internal methods and Utils</span>
+</h3>
+                </div>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)isDemoMode"></a>
+                    <a name="//apple_ref/objc/Method/-isDemoMode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)isDemoMode">-isDemoMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>To Check wheteher the application is running in Demo Mode.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="n">isDemoMode</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">isDemoMode</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A Boolean indicating the status.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L264">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)sendDataRequestForAllFunctionsWithError:"></a>
+                    <a name="//apple_ref/objc/Method/-sendDataRequestForAllFunctionsWithError:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)sendDataRequestForAllFunctionsWithError:">-sendDataRequestForAllFunctionsWithError:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This API Will Send a Initial Data Download Request for All functions in Admin Cockpit which are marked as Initial Data Download Functions.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendDataRequestForAllFunctionsWithError</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendDataRequestForAllFunctions</span><span class="p">()</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>On input, a pointer to an error object. If an error occurs, this pointer is set to an actual error object containing the error information. You may specify nil for this parameter if you do not want the error information.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A Boolean value to indicate whether there is any database error while processing this request.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L272">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)sendDataRequest:inputData:error:"></a>
+                    <a name="//apple_ref/objc/Method/-sendDataRequest:inputData:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)sendDataRequest:inputData:error:">-sendDataRequest:<wbr>inputData:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This API Will Send a Initial Data Download Request for a specific function.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendDataRequest</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">functionName</span>
+              <span class="nf">inputData</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">inputData</span>
+                  <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendDataRequest</span><span class="p">(</span><span class="n">_</span> <span class="nv">functionName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">inputData</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>error</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>On input, a pointer to an error object. If an error occurs, this pointer is set to an actual error object containing the error information. You may specify nil for this parameter if you do not want the error information.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>inoutData</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Input to the function call.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A Boolean value to indicate whether there is any database error while processing this request.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L280-L282">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)timstampOfLastPendingDownloadRequest"></a>
+                    <a name="//apple_ref/objc/Method/-timstampOfLastPendingDownloadRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)timstampOfLastPendingDownloadRequest">-timstampOfLastPendingDownloadRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the timestamp of the last pending Data Download Request.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">long</span><span class="p">)</span><span class="n">timstampOfLastPendingDownloadRequest</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">timstampOfLastPendingDownloadRequest</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A long value indicating the timestamp. The timestamp of the last request for the specified function name. Returns 0 if there are no requests pending.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L288">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)queryFunctionsHavingPendingDatadownload"></a>
+                    <a name="//apple_ref/objc/Method/-queryFunctionsHavingPendingDatadownload" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)queryFunctionsHavingPendingDatadownload">-queryFunctionsHavingPendingDatadownload</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This API Will return all the Query Functions which have pending data download requests from the server. Note that this function can contain duplicate function names. The order of the array is the ascending order of posting time.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="n">queryFunctionsHavingPendingDatadownload</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">queryFunctionsHavingPendingDatadownload</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>An Array of Function Names.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L294">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)timestampForQueryFunction:"></a>
+                    <a name="//apple_ref/objc/Method/-timestampForQueryFunction:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)timestampForQueryFunction:">-timestampForQueryFunction:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This API Will check whether there is a request is placed for the specified function name and returns the timestamp.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">long</span><span class="p">)</span><span class="nf">timestampForQueryFunction</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">function</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">timestamp</span><span class="p">(</span><span class="n">forQueryFunction</span> <span class="nv">function</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>function</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>the Function Name.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A long value indicating the timestamp. The timestamp of the last request for the specified function name. Returns 0 if there are no requests pending.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L301">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(cm)RegisterForAPNS"></a>
+                    <a name="//apple_ref/objc/Method/+RegisterForAPNS" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(cm)RegisterForAPNS">+RegisterForAPNS</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>This method registers your app with Apple Push Notification Service (APNS) for receiving Push Notifications. Registering with the APNS server is mandatory for all those apps which support receiving for Push Notifications. As a follow-up, after registering for push notification, a push id is generated from Apple and sent to the device</p>
+
+<p>@discussion  This method should be called just after the login process is completed. Since there are two callback methods which convery this information ([LoginActivityListener loginSuccessful] &amp; [LoginActivityListener authenticationAndActivationSuccessful]), this method has to be called from each of these implementations.</p>
+
+<p>@see</p>
+
+<p>This method should be called in the implementation of [LoginActivityListener loginSuccessful] and [LoginActivityListener authenticationAndActivationSuccessful] of the protocol LoginActivityListener. As a result of registering with the APNS you will be notified using the delegate methods of the protocol UIApplicationDelegate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">RegisterForAPNS</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">registerForAPNS</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L312">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(cm)SendPushIDToServer:error:"></a>
+                    <a name="//apple_ref/objc/Method/+SendPushIDToServer:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(cm)SendPushIDToServer:error:">+SendPushIDToServer:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Call this method after you receive the push id from the apple server in the delegate [UIApplicationDelegate application:didRegisterForRemoteNotificationsWithDeviceToken], before sending the push id format the push id as shown</p>
+
+<p>NSMutableString * tokenString = [NSMutableString stringWithString:[[deviceToken description] uppercaseString]];
+[tokenString replaceOccurrencesOfString:@&ldquo;&lt;&rdquo; withString:@&ldquo;&rdquo; options:0 range:NSMakeRange(0, tokenString.length)];
+[tokenString replaceOccurrencesOfString:@&ldquo;&gt;&rdquo; withString:@&ldquo;&rdquo; options:0 range:NSMakeRange(0, tokenString.length)];
+[tokenString replaceOccurrencesOfString:@&ldquo; &rdquo; withString:@&ldquo;&rdquo; options:0 range:NSMakeRange(0, tokenString.length)];</p>
+
+<p>[SyncEngine SendPushIDToServer:tokenString];</p>
+<div class="aside aside-warning">
+    <p class="aside-title">Warning</p>
+    <p>This Method is a synchronous call. Therefore call this method in a background thread in order to avoid interfering with the UI Thread.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">+</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">SendPushIDToServer</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">pushId</span> <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">sendPushID</span><span class="p">(</span><span class="n">toServer</span> <span class="nv">pushId</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>pushId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>The Push ID.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L328">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)makeRestAPICallWithAPI:andDictionary:"></a>
+                    <a name="//apple_ref/objc/Method/-makeRestAPICallWithAPI:andDictionary:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)makeRestAPICallWithAPI:andDictionary:">-makeRestAPICallWithAPI:<wbr>andDictionary:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Make RESTful API Call with the API Name and a dictionary of post parameters.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Classes/HTTPResponse.html">HTTPResponse</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">makeRestAPICallWithAPI</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">api</span>
+                           <span class="nf">andDictionary</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">param</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">makeRestAPICall</span><span class="p">(</span><span class="n">withAPI</span> <span class="nv">api</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">andDictionary</span> <span class="nv">param</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/HTTPResponse.html">HTTPResponse</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>api</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>A String representing the API.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>A</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Dictionary containing key-value pairs of all the post parameters.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>A HTTPResponse Object.</p>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L337">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)getMobileAppSettingsWhere:"></a>
+                    <a name="//apple_ref/objc/Method/-getMobileAppSettingsWhere:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)getMobileAppSettingsWhere:">-getMobileAppSettingsWhere:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns Mobile App settings. Returns all if whereClause is nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nf">getMobileAppSettingsWhere</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">whereClause</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getMobileAppSettingsWhere</span><span class="p">(</span><span class="n">_</span> <span class="nv">whereClause</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L340">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)getMobileUserSettingsWhere:"></a>
+                    <a name="//apple_ref/objc/Method/-getMobileUserSettingsWhere:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)getMobileUserSettingsWhere:">-getMobileUserSettingsWhere:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns mobile user settings. Returns all if whereClause is nil</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nf">getMobileUserSettingsWhere</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">whereClause</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">getMobileUserSettingsWhere</span><span class="p">(</span><span class="n">_</span> <span class="nv">whereClause</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L343">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)updateMobileUserSettings:"></a>
+                    <a name="//apple_ref/objc/Method/-updateMobileUserSettings:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)updateMobileUserSettings:">-updateMobileUserSettings:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Allows you to update mobile user settings in the database and also updates the settings in the server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">updateMobileUserSettings</span><span class="p">:(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">mobileSettingsArray</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">updateMobileUserSettings</span><span class="p">(</span><span class="n">_</span> <span class="nv">mobileSettingsArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L346">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)sendToServerInBackground:messageSubType:requestType:customData:processAgentFunctionName:beName:lid:bypassAttachment:error:"></a>
+                    <a name="//apple_ref/objc/Method/-sendToServerInBackground:messageSubType:requestType:customData:processAgentFunctionName:beName:lid:bypassAttachment:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)sendToServerInBackground:messageSubType:requestType:customData:processAgentFunctionName:beName:lid:bypassAttachment:error:">-sendToServerInBackground:<wbr>messageSubType:<wbr>requestType:<wbr>customData:<wbr>processAgentFunctionName:<wbr>beName:<wbr>lid:<wbr>bypassAttachment:<wbr>error:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">sendToServerInBackground</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">messageType</span>
+                  <span class="nf">messageSubType</span><span class="p">:(</span><span class="kt">int</span><span class="p">)</span><span class="nv">messageSubType</span>
+                     <span class="nf">requestType</span><span class="p">:(</span><span class="n"><a href="../Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a></span><span class="p">)</span><span class="nv">requestType</span>
+                      <span class="nf">customData</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">data</span>
+        <span class="nf">processAgentFunctionName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">functionName</span>
+                          <span class="nf">beName</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">beName</span>
+                             <span class="nf">lid</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">lid</span>
+                <span class="nf">bypassAttachment</span><span class="p">:(</span><span class="n">BOOL</span><span class="p">)</span><span class="nv">byPassAttachment</span>
+                           <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">sendToServer</span><span class="p">(</span><span class="n">inBackground</span> <span class="nv">messageType</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">,</span> <span class="nv">messageSubType</span><span class="p">:</span> <span class="kt">Int32</span><span class="p">,</span> <span class="n">request</span> <span class="nv">requestType</span><span class="p">:</span> <span class="kt"><a href="../Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a></span><span class="p">,</span> <span class="n">customData</span> <span class="nv">data</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">processAgentFunctionName</span> <span class="nv">functionName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">beName</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">lid</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="n">bypassAttachment</span> <span class="nv">byPassAttachment</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L348-L356">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)lockDataSender:"></a>
+                    <a name="//apple_ref/objc/Method/-lockDataSender:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)lockDataSender:">-lockDataSender:<wbr></a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span><span class="p">(</span><span class="n"><a href="../Enums/OutboxLockResult.html">OutboxLockResult</a></span><span class="p">)</span><span class="nf">lockDataSender</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">beLid</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">lockDataSender</span><span class="p">(</span><span class="n">_</span> <span class="nv">beLid</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Enums/OutboxLockResult.html">OutboxLockResult</a></span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L358">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)unlockDataSender"></a>
+                    <a name="//apple_ref/objc/Method/-unlockDataSender" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)unlockDataSender">-unlockDataSender</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">unlockDataSender</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">unlockDataSender</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L360">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SyncEngine(im)handleJWTTokenRetrieval"></a>
+                    <a name="//apple_ref/objc/Method/-handleJWTTokenRetrieval" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SyncEngine(im)handleJWTTokenRetrieval">-handleJWTTokenRetrieval</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">handleJWTTokenRetrieval</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">handleJWTTokenRetrieval</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.sync/SyncEngine.h#L362">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2022 <a class="link" href="" target="_blank" rel="external noopener">Srinidhi</a>. All rights reserved. (Last updated: 2022-11-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>
