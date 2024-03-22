@@ -17,7 +17,7 @@
     <a title="Enumerations  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html"> R-3.001.0204 Docs</a> (25% documented)</p>
+        <p><a href="index.html"> R-3.001.0207 Docs</a> (25% documented)</p>
         <div class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -867,6 +867,9 @@
                 <a href="Enums/CONFLICT_RULE.html">CONFLICT_RULE</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/CURRENT_APPLICATION_STATUS.html">CURRENT_APPLICATION_STATUS</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/DATA_TYPE.html">DATA_TYPE</a>
               </li>
               <li class="nav-group-task">
@@ -876,6 +879,9 @@
                 <a href="Enums/LEVEL.html">LEVEL</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/LISTENER_TYPE.html">LISTENER_TYPE</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/LoginMode.html">LoginMode</a>
               </li>
               <li class="nav-group-task">
@@ -883,6 +889,15 @@
               </li>
               <li class="nav-group-task">
                 <a href="Enums/MESSAGE_REQUEST_TYPE.html">MESSAGE_REQUEST_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/MessageFormat.html">MessageFormat</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/NOTIF_LISTENER_TYPE.html">NOTIF_LISTENER_TYPE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/NetworkStatus.html">NetworkStatus</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/OBJECT_STATUS.html">OBJECT_STATUS</a>
@@ -900,10 +915,16 @@
                 <a href="Enums/RESPONSE_STATUS.html">RESPONSE_STATUS</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/RESULT_TYPE.html">RESULT_TYPE</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/SYNC_MODE.html">SYNC_MODE</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/SYNC_STATUS.html">SYNC_STATUS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/SettingsMode.html">SettingsMode</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/UnviredDataFormat.html">UnviredDataFormat</a>
@@ -912,10 +933,19 @@
                 <a href="Enums/UnviredDataImportMode.html">UnviredDataImportMode</a>
               </li>
               <li class="nav-group-task">
+                <a href="Enums/UnviredErrorCode.html">UnviredErrorCode</a>
+              </li>
+              <li class="nav-group-task">
                 <a href="Enums/UnviredFrameworkFields.html">UnviredFrameworkFields</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/UnviredInputFields.html">UnviredInputFields</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UnviredPullRefreshState.html">UnviredPullRefreshState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="Enums/UnviredResult.html">UnviredResult</a>
               </li>
               <li class="nav-group-task">
                 <a href="Enums/UnviredTableViewCellType.html">UnviredTableViewCellType</a>
@@ -1006,41 +1036,6 @@
             </ul>
           </li>
           <li class="nav-group-name">
-            <a href="Type%20Definitions.html">Type Definitions</a>
-            <ul class="nav-group-tasks">
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/CURRENT_APPLICATION_STATUS.html">CURRENT_APPLICATION_STATUS</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/LISTENER_TYPE.html">LISTENER_TYPE</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/MessageFormat.html">MessageFormat</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/NOTIF_LISTENER_TYPE.html">NOTIF_LISTENER_TYPE</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/NetworkStatus.html">NetworkStatus</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/RESULT_TYPE.html">RESULT_TYPE</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/SettingsMode.html">SettingsMode</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/UnviredErrorCode.html">UnviredErrorCode</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/UnviredPullRefreshState.html">UnviredPullRefreshState</a>
-              </li>
-              <li class="nav-group-task">
-                <a href="Type%20Definitions/UnviredResult.html">UnviredResult</a>
-              </li>
-            </ul>
-          </li>
-          <li class="nav-group-name">
             <a href="Structs.html">Structures</a>
             <ul class="nav-group-tasks">
               <li class="nav-group-task">
@@ -1092,6 +1087,97 @@
                       </div>
                       <div class="slightly-smaller">
                         <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ISyncResponse.h#L14-L29">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@EA@UnviredErrorCode"></a>
+                    <a name="//apple_ref/objc/Enum/UnviredErrorCode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@UnviredErrorCode">UnviredErrorCode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/UnviredErrorCode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+    
+	<span class="n">UnviredLogicError</span><span class="p">,</span>
+	<span class="n">UnviredUserCancelledOperation</span><span class="p">,</span>
+	<span class="n">UnviredInvalidParameterError</span><span class="p">,</span>
+	<span class="n">UnviredFileReadError</span><span class="p">,</span>
+	<span class="n">UnviredFileNotFoundError</span><span class="p">,</span>
+	<span class="n">UnviredIncorrectResponseError</span><span class="p">,</span>
+	<span class="n">UnviredHTTPConnectionError</span><span class="p">,</span>
+	<span class="n">UnviredDemoModeError</span><span class="p">,</span>
+	<span class="n">UnviredSQLError</span><span class="p">,</span>
+	<span class="n">UnviredApplicationError</span><span class="p">,</span>
+	<span class="n">UnviredApplicationDataReset</span><span class="p">,</span>
+
+	<span class="c1">// Use this error type to create error objects which need not be conveyed to the error. Like Clicking on 'Cancel' button in the Device List Alert View.</span>
+	<span class="n">UnviredDoNotLogError</span><span class="p">,</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">UnviredErrorCode</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/UnviredError.h#L16-L32">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@EA@MessageFormat"></a>
+                    <a name="//apple_ref/objc/Enum/MessageFormat" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@MessageFormat">MessageFormat</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/MessageFormat.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+    <span class="n">kMessageFormatXML</span><span class="p">,</span>
+    <span class="n">kMessageFormatJSON</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">MessageFormat</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.core/FrameworkManager.h#L21-L24">Show on GitLab</a>
                       </div>
                     </section>
                   </div>
@@ -1584,6 +1670,142 @@ These statuses represent different status of the attachment file at various stag
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/c:@EA@LISTENER_TYPE"></a>
+                    <a name="//apple_ref/objc/Enum/LISTENER_TYPE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@LISTENER_TYPE">LISTENER_TYPE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/LISTENER_TYPE.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+    <span class="n">show_login</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="n">show_subsequent_login</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="n">auth_success</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="n">auth_error</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span>
+    <span class="n">login_success</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="n">login_error</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span>
+    <span class="n">requires_current_account</span> <span class="o">=</span> <span class="mi">6</span><span class="p">,</span>
+    <span class="n">login_demo</span> <span class="o">=</span> <span class="mi">7</span><span class="p">,</span>
+    <span class="n">demo_data_error</span> <span class="o">=</span> <span class="mi">8</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">LISTENER_TYPE</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.model/HTML5Utils.h#L12-L22">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@EA@RESULT_TYPE"></a>
+                    <a name="//apple_ref/objc/Enum/RESULT_TYPE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@RESULT_TYPE">RESULT_TYPE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/RESULT_TYPE.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+    <span class="n">success_result</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="n">error_result</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">RESULT_TYPE</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.model/HTML5Utils.h#L24-L27">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@EA@NOTIF_LISTENER_TYPE"></a>
+                    <a name="//apple_ref/objc/Enum/NOTIF_LISTENER_TYPE" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@NOTIF_LISTENER_TYPE">NOTIF_LISTENER_TYPE</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/NOTIF_LISTENER_TYPE.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+    <span class="n">data_send</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+    <span class="n">data_changed</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+    <span class="n">data_received</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
+    <span class="n">app_reset</span> <span class="o">=</span> <span class="mi">3</span><span class="p">,</span>
+    <span class="n">attachmentDownloadSuccess</span> <span class="o">=</span> <span class="mi">4</span><span class="p">,</span>
+    <span class="n">attachmentDownloadError</span> <span class="o">=</span> <span class="mi">5</span><span class="p">,</span> <span class="c1">// Notify application with error message and attchment item on attachment download success</span>
+    <span class="n">incomingDataProcessingFinished</span> <span class="o">=</span> <span class="mi">6</span><span class="p">,</span>
+    <span class="n">attachmentDownloadWaiting</span> <span class="o">=</span> <span class="mi">7</span><span class="p">,</span> <span class="c1">// Notify application when attachment download is waiting on the server</span>
+    <span class="n">infoMessage</span> <span class="o">=</span> <span class="mi">8</span><span class="p">,</span> <span class="c1">// Notify application with any InfoMessages</span>
+    <span class="n">serverError</span> <span class="o">=</span> <span class="mi">9</span><span class="p">,</span>
+    <span class="n">attachmentDownloadCompleted</span> <span class="o">=</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="n">sentItemChanged</span> <span class="o">=</span> <span class="mi">11</span><span class="p">,</span>
+    <span class="n">jwtTokenUpdated</span> <span class="o">=</span> <span class="mi">12</span>
+    
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">NOTIF_LISTENER_TYPE</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.model/HTML5Utils.h#L29-L44">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/c:@E@OUT_OBJECT_STATUS"></a>
                     <a name="//apple_ref/objc/Enum/OUT_OBJECT_STATUS" class="dashAnchor"></a>
                     <a class="token" href="#/c:@E@OUT_OBJECT_STATUS">OUT_OBJECT_STATUS</a>
@@ -1856,6 +2078,46 @@ These statuses represent different status of the attachment file at various stag
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/c:@EA@CURRENT_APPLICATION_STATUS"></a>
+                    <a name="//apple_ref/objc/Enum/CURRENT_APPLICATION_STATUS" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@CURRENT_APPLICATION_STATUS">CURRENT_APPLICATION_STATUS</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/CURRENT_APPLICATION_STATUS.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+	<span class="n">CURRENT_APPLICATION_STATUS_LOADING</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+	<span class="n">CURRENT_APPLICATION_STATUS_ACTIVE</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+	<span class="n">CURRENT_APPLICATION_STATUS_INACTIVE</span> <span class="o">=</span> <span class="mi">2</span><span class="p">,</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">CURRENT_APPLICATION_STATUS</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.utils/ApplicationStatus.h#L12-L16">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/c:@E@LEVEL"></a>
                     <a name="//apple_ref/objc/Enum/LEVEL" class="dashAnchor"></a>
                     <a class="token" href="#/c:@E@LEVEL">LEVEL</a>
@@ -1941,6 +2203,165 @@ To set the default log level, use the method <code>-setLogLevel:</code> in the L
                 <li class="item">
                   <div>
                     <code>
+                    <a name="/c:@EA@NetworkStatus"></a>
+                    <a name="//apple_ref/objc/Enum/NetworkStatus" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@NetworkStatus">NetworkStatus</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/NetworkStatus.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+	<span class="n">NotReachable</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+	<span class="n">ReachableViaWiFi</span><span class="p">,</span>
+	<span class="n">ReachableViaWWAN</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">NetworkStatus</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.utils/Reachability.h#L54-L58">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@EA@UnviredPullRefreshState"></a>
+                    <a name="//apple_ref/objc/Enum/UnviredPullRefreshState" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@UnviredPullRefreshState">UnviredPullRefreshState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/UnviredPullRefreshState.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+	<span class="n">UnviredPullRefreshPulling</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+	<span class="n">UnviredPullRefreshNormal</span><span class="p">,</span>
+	<span class="n">UnviredPullRefreshLoading</span><span class="p">,</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">UnviredPullRefreshState</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.utils/UnviredRefreshTableHeaderView.h#L30-L34">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@EA@UnviredResult"></a>
+                    <a name="//apple_ref/objc/Enum/UnviredResult" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@UnviredResult">UnviredResult</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/UnviredResult.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span>  <span class="p">{</span>
+	<span class="n">UnviredResultTrue</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span>
+	<span class="n">UnviredResultFalse</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span>
+	<span class="n">UnviredResultError</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">UnviredResult</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ios.utils/UnviredResult.h#L17-L21">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@EA@SettingsMode"></a>
+                    <a name="//apple_ref/objc/Enum/SettingsMode" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@EA@SettingsMode">SettingsMode</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                        <a href="Enums/SettingsMode.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight objective_c"><code><span class="k">enum</span> <span class="p">{</span>
+	<span class="n">modeDisplayMultipleLogins</span><span class="p">,</span>
+	<span class="n">modeDisplayLoginSettings</span>
+<span class="p">}</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">SettingsMode</span> <span class="p">:</span> <span class="kt">Equatable</span><span class="p">,</span> <span class="kt">RawRepresentable</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://intranet.indience.in:8443/unvired-ios/unvired-framework/-/tree/master/Unvired_Framework/ui/LoginOptionsViewController.h#L13-L16">Show on GitLab</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
                     <a name="/c:@E@UnviredTableViewCellType"></a>
                     <a name="//apple_ref/objc/Enum/UnviredTableViewCellType" class="dashAnchor"></a>
                     <a class="token" href="#/c:@E@UnviredTableViewCellType">UnviredTableViewCellType</a>
@@ -1979,7 +2400,7 @@ To set the default log level, use the method <code>-setLogLevel:</code> in the L
           </section>
         </section>
         <section id="footer">
-          <p>&copy; 2023 <a class="link" href="" target="_blank" rel="external noopener">Srinidhi</a>. All rights reserved. (Last updated: 2023-07-20)</p>
+          <p>&copy; 2024 <a class="link" href="" target="_blank" rel="external noopener">Srinidhi</a>. All rights reserved. (Last updated: 2024-03-22)</p>
           <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.14.3</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
         </section>
       </article>
