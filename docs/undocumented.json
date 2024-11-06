@@ -1261,6 +1261,13 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.core/LoginActivityListener.h",
+      "line": 41,
+      "symbol": "LoginActivityListener.-provideJWTTokenForSAML:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.core/UserSettingsManager.h",
       "line": 15,
       "symbol": "SERVER_USER_ID",
@@ -2342,6 +2349,13 @@
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.login/AuthenticationService.h",
       "line": 135,
       "symbol": "AuthenticationService.+loginViaSSO",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.login/AuthenticationService.h",
+      "line": 137,
+      "symbol": "AuthenticationService.+evaluateCertificateTrust:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
