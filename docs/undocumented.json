@@ -4145,6 +4145,20 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.model/HTML5Utils.h",
+      "line": 43,
+      "symbol": "NOTIF_LISTENER_TYPE.NOTIF_LISTENER_TYPE.jwtTokenExpired",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.model/HTML5Utils.h",
+      "line": 43,
+      "symbol": "NOTIF_LISTENER_TYPE.jwtTokenExpired",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.model/IAttachment.h",
       "line": 11,
       "symbol": "IAttachment",
@@ -6423,6 +6437,13 @@
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.sync/NotificationListener.h",
       "line": 136,
       "symbol": "NotificationListener.-notifyQueryFunctionRemoved:existingQueryFunctions:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.sync/NotificationListener.h",
+      "line": 144,
+      "symbol": "NotificationListener.-notifyJWTTokenExpired",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
