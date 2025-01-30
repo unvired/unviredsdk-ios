@@ -16,7 +16,7 @@
     <a title="  Reference"></a>
     <header>
       <div class="content-wrapper">
-        <p><a href="index.html"> R-3.001.0230 Docs</a> (19% documented)</p>
+        <p><a href="index.html"> R-3.001.0231 Docs</a> (19% documented)</p>
         <div class="header-right">
           <form role="search" action="search.json">
             <input type="text" placeholder="Search documentation" data-typeahead>
@@ -2156,7 +2156,21 @@
         <section>
           <section class="section">
             
-            <h1 id='working-with-xcode-13' class='heading'>Working with Xcode 13</h1>
+            <h1 id='updating-sqlcipher' class='heading'>Updating SQLCipher</h1>
+
+<p>Community edition of SQLCipher is included. When you start the app, search for the log which indicates SQLCipher version. 
+SQLCipher is compiled from the source code. Instructions are available here: <a href="https://www.zetetic.net/sqlcipher/ios-tutorial/#option-1-source-integration">https://www.zetetic.net/sqlcipher/ios-tutorial/#option-1-source-integration</a></p>
+
+<p>Steps:</p>
+
+<ol>
+<li>Go to releases section under <a href="https://github.com/sqlcipher/sqlcipher/releases">https://github.com/sqlcipher/sqlcipher/releases</a> and download the latest available community release.</li>
+<li>Compile the source code as per the instructions in <a href="https://www.zetetic.net/sqlcipher/ios-tutorial/#option-1-source-integration">https://www.zetetic.net/sqlcipher/ios-tutorial/#option-1-source-integration</a></li>
+<li>Replace sqlite3.c and sqlite3.h under ios.database folder.</li>
+<li>Commit &amp; push the code.</li>
+<li>Pubish a new cocoapod package.</li>
+</ol>
+<h1 id='working-with-xcode-13' class='heading'>Working with Xcode 13</h1>
 
 <p>With Xcode 13, there are lot of changes one need to be aware of in order to develop the Framework.</p>
 
