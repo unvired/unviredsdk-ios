@@ -1865,216 +1865,209 @@
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
       "line": 46,
-      "symbol": "IDataManager.-canOpenDatabaseWithKey:",
-      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 48,
       "symbol": "IDataManager.-exists",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 50,
+      "line": 48,
       "symbol": "IDataManager.-closeDatabaseWitherror:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 54,
+      "line": 52,
       "symbol": "IDataManager.-beginTransaction",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 56,
+      "line": 54,
       "symbol": "IDataManager.-commitTransaction",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 58,
+      "line": 56,
       "symbol": "IDataManager.-rollbackTransaction",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 60,
+      "line": 58,
       "symbol": "IDataManager.-executeTransactionWithError:forBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 63,
+      "line": 61,
       "symbol": "IDataManager.-createSavepoint:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 65,
+      "line": 63,
       "symbol": "IDataManager.-rollbackToSavepoint:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 67,
+      "line": 65,
       "symbol": "IDataManager.-releaseSavepoint:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 89,
+      "line": 87,
       "symbol": "IDataManager.-createTable:columnNames:columnTypes:primaryKeys:uniqueKeys:mandatoryFields:foreignKeys:headerStructureName:headerStructureKeys:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 100,
+      "line": 98,
       "symbol": "IDataManager.-createTable:columnName:columnTypes:primaryKey:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 106,
+      "line": 104,
       "symbol": "IDataManager.-createTable:columnName:columnTypes:primaryKey:uniqueKeys:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 113,
+      "line": 111,
       "symbol": "IDataManager.-createIndex:structureName:fieldNames:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 118,
+      "line": 116,
       "symbol": "IDataManager.-dropIndex:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 121,
+      "line": 119,
       "symbol": "IDataManager.-checkDuplicateGID:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 126,
+      "line": 124,
       "symbol": "IDataManager.-insertOrUpdateBasedOnGID:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 225,
+      "line": 223,
       "symbol": "IDataManager.-getBasedOnGID:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 427,
+      "line": 425,
       "symbol": "IDataManager.-get:className:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 430,
+      "line": 428,
       "symbol": "IDataManager.-get:orderByFields:className:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 434,
+      "line": 432,
       "symbol": "IDataManager.-get:whereClause:className:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 438,
+      "line": 436,
       "symbol": "IDataManager.-get:whereClause:orderByFields:className:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 471,
+      "line": 469,
       "symbol": "IDataManager.-getChildren:whereClause:orderByFields:headerDataStructure:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 490,
+      "line": 488,
       "symbol": "IDataManager.-getDataStructureFromCursor:forTableName:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 494,
+      "line": 492,
       "symbol": "IDataManager.-getDataStructureFrom:className:tableName:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 500,
+      "line": 498,
       "symbol": "IDataManager.-executeDBOperationsWithSavePoint:forBlock:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 542,
+      "line": 540,
       "symbol": "IDataManager.-insertJSON:JSONObject:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 544,
+      "line": 542,
       "symbol": "IDataManager.-updateJSON:JSONObject:whereClause:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 546,
+      "line": 544,
       "symbol": "IDataManager.-getJSON:whereClause:error:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 548,
+      "line": 546,
       "symbol": "IDataManager.-getJSONDataStructuresFromCursor:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
       "file": "/Volumes/Build/Jenkins/build/workspace/Unvired_Kernel_iOS_Trunk/Framework/Unvired_Framework/ios.database/IDataManager.h",
-      "line": 550,
+      "line": 548,
       "symbol": "IDataManager.-getWhereClauseString:",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
